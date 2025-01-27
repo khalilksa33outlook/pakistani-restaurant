@@ -7,13 +7,13 @@ const menuItems = {
       name: "Samosa",
       description: "Crispy pastry filled with spiced potatoes and peas",
       price: 6.99,
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950" // Samosa image
     },
     {
       name: "Pakora",
       description: "Mixed vegetable fritters with mint chutney",
       price: 5.99,
-      image: "https://images.unsplash.com/photo-1498936178812-4b2e558d2937"
+      image: "https://images.unsplash.com/photo-1626132647523-66c6bc3f6d8a" // Pakora image
     }
   ],
   'Biryanis': [
@@ -21,13 +21,13 @@ const menuItems = {
       name: "Chicken Biryani",
       description: "Aromatic rice dish with tender chicken and saffron",
       price: 15.99,
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d"
+      image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8" // Biryani image
     },
     {
       name: "Mutton Biryani",
       description: "Traditional rice preparation with tender mutton",
       price: 17.99,
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+      image: "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833" // Mutton biryani image
     }
   ],
   'Karahi': [
@@ -35,7 +35,7 @@ const menuItems = {
       name: "Chicken Karahi",
       description: "Tender chicken cooked with tomatoes and green chilies",
       price: 16.99,
-      image: "https://images.unsplash.com/photo-1498936178812-4b2e558d2937"
+      image: "https://images.unsplash.com/photo-1603496987351-f84a3ba5ec85" // Karahi image
     }
   ],
   'Kebabs': [
@@ -43,7 +43,7 @@ const menuItems = {
       name: "Seekh Kebab",
       description: "Minced meat skewers with aromatic spices",
       price: 14.99,
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d"
+      image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0" // Kebab image
     }
   ],
   'Curries': [
@@ -51,7 +51,7 @@ const menuItems = {
       name: "Butter Chicken",
       description: "Creamy tomato-based curry with tender chicken",
       price: 15.99,
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+      image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db" // Butter chicken image
     }
   ],
   'Breads': [
@@ -59,7 +59,7 @@ const menuItems = {
       name: "Naan",
       description: "Traditional clay oven-baked flatbread",
       price: 2.99,
-      image: "https://images.unsplash.com/photo-1498936178812-4b2e558d2937"
+      image: "https://images.unsplash.com/photo-1584534582042-939e4ea9d4db" // Naan image
     }
   ],
   'Vegetarian': [
@@ -67,7 +67,7 @@ const menuItems = {
       name: "Dal Makhani",
       description: "Creamy black lentils simmered overnight",
       price: 12.99,
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d"
+      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d" // Dal image
     }
   ],
   'Rice Dishes': [
@@ -75,7 +75,7 @@ const menuItems = {
       name: "Jeera Rice",
       description: "Aromatic cumin-flavored basmati rice",
       price: 5.99,
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+      image: "https://images.unsplash.com/photo-1596797038530-2c107229654b" // Rice image
     }
   ],
   'Desserts': [
@@ -83,7 +83,7 @@ const menuItems = {
       name: "Gulab Jamun",
       description: "Sweet milk dumplings in rose syrup",
       price: 4.99,
-      image: "https://images.unsplash.com/photo-1498936178812-4b2e558d2937"
+      image: "https://images.unsplash.com/photo-1601303516361-f2f1c1eae981" // Gulab jamun image
     }
   ],
   'Beverages': [
@@ -91,7 +91,7 @@ const menuItems = {
       name: "Mango Lassi",
       description: "Sweet yogurt drink with mango pulp",
       price: 3.99,
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d"
+      image: "https://images.unsplash.com/photo-1571006682889-7e64f028d06c" // Lassi image
     }
   ],
   "Chef's Specials": [
@@ -99,7 +99,7 @@ const menuItems = {
       name: "Mixed Grill Platter",
       description: "Assortment of grilled meats and kebabs",
       price: 24.99,
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+      image: "https://images.unsplash.com/photo-1544025162-d76694265947" // Mixed grill image
     }
   ],
   'BBQ': [
@@ -107,7 +107,7 @@ const menuItems = {
       name: "Tandoori Chicken",
       description: "Clay oven-roasted chicken with special marinade",
       price: 16.99,
-      image: "https://images.unsplash.com/photo-1498936178812-4b2e558d2937"
+      image: "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91" // Tandoori chicken image
     }
   ]
 };
