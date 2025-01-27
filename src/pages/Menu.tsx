@@ -128,8 +128,10 @@ const menuItems = {
 };
 
 const Menu = () => {
-  const [activeCategory, setActiveCategory] = useState(categories[0]);
+  // First get the categories from menuItems
   const categories = Object.keys(menuItems);
+  // Then use categories in the useState initialization
+  const [activeCategory, setActiveCategory] = useState(categories[0]);
 
   return (
     <>
