@@ -27,23 +27,52 @@ const Home = () => {
       {/* Featured Section */}
       <section className="py-16 bg-muted">
         <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-12">Featured Dishes</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Signature Dishes</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Featured dishes will be added here */}
-            {[1, 2, 3].map((item) => (
-              <div
-                key={item}
-                className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
-              >
-                <div className="h-48 bg-gray-200"></div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Signature Dish {item}</h3>
-                  <p className="text-gray-600">
-                    Description of this amazing Pakistani dish that will make your mouth water.
-                  </p>
-                </div>
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div 
+                className="h-48 bg-cover bg-center" 
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8')" }}
+                role="img"
+                aria-label="Authentic Chicken Biryani with aromatic rice and spices"
+              ></div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Special Chicken Biryani</h3>
+                <p className="text-gray-600">
+                  Our signature biryani features fragrant basmati rice layered with tender marinated chicken and aromatic spices.
+                </p>
               </div>
-            ))}
+            </div>
+
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div 
+                className="h-48 bg-cover bg-center" 
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1603496987351-f84a3ba5ec85')" }}
+                role="img"
+                aria-label="Sizzling Chicken Karahi with fresh herbs"
+              ></div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Chicken Karahi</h3>
+                <p className="text-gray-600">
+                  A beloved classic cooked in a traditional wok with hand-ground spices and fresh tomatoes.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div 
+                className="h-48 bg-cover bg-center" 
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1599487488170-d11ec9c172f0')" }}
+                role="img"
+                aria-label="Grilled Seekh Kebabs with fresh herbs"
+              ></div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Seekh Kebab</h3>
+                <p className="text-gray-600">
+                  Hand-ground spiced lamb kebabs grilled to perfection, served with mint chutney.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -65,9 +94,12 @@ const Home = () => {
                 Learn More <ArrowRight size={20} />
               </Link>
             </div>
-            <div className="bg-gray-200 h-[400px] rounded-lg">
-              {/* Restaurant image will go here */}
-            </div>
+            <div 
+              className="h-[400px] rounded-lg bg-cover bg-center"
+              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552566626-52f8b828add9')" }}
+              role="img"
+              aria-label="Traditional Pakistani restaurant interior with warm lighting and authentic decor"
+            ></div>
           </div>
         </div>
       </section>
